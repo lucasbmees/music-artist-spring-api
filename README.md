@@ -22,21 +22,6 @@ O sistema oferece uma interface CLI (Command Line Interface) com as seguintes op
 6.  **Remover Música**: Exclusão de faixas específicas.
 7.  **Busca por Artista**: Filtro de músicas utilizando consultas JPQL personalizadas.
 
-## Configuração do Ambiente
-
-### Banco de Dados
-O projeto está configurado para conectar-se a um banco PostgreSQL:
-- **URL**: jdbc:postgresql://localhost:5432/gerenciamento-artistas
-- **Username**: postgres
-- **DDL**: O Hibernate está configurado para atualizar o esquema automaticamente.
-
-### Como Executar
-Para iniciar a aplicação, utilize o Maven Wrapper:
-
-\`\`\`bash
-./mvnw spring-boot:run
-\`\`\`
-
 ## Estrutura do Projeto
 
 - **Model**: Contém as entidades Artista (com estilos ENUM) e Musica.
